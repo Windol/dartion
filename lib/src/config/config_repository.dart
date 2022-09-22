@@ -19,6 +19,7 @@ class ConfigRepository implements IConfigRepository {
       doc = loadYaml('''
 name: Dartion Server
 port: 3031
+host: 0.0.0.0
 db: db.json
 ''');
     }
